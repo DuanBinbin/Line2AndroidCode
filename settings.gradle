@@ -1,1 +1,1 @@
-include ':chapter2activity',':chapter3ui',':chapter4fragment',':FuncBasic',':chapter10service','chapter5broadcast'
+include ':chapter2activity',':chapter3ui',':chapter4fragment',':FuncBasic',':chapter10service', ':chapter7contentprovider','chapter5broadcast'
