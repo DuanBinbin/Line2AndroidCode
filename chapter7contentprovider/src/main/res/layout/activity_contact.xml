@@ -4,19 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ContactActivity">
 
     <Button
-        android:id="@+id/btn_start_permission_activity"
+        android:id="@+id/btn_read_contacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start Permission Activity"/>
+        android:text="Read Contacts"/>
 
-    <Button
-        android:id="@+id/btn_start_contacts_activity"
+    <ListView
+        android:id="@+id/listView_contact"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Start Contacts Activity"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
