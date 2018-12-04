@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".layout.LinearLayoutActivity">
+
+    <!--android:orientation="horizontal",垂直方向上的对齐方式才会生效-->
+    <!--android:gravity,用于指定文字在控件中的对齐方式-->
+    <!--android:layout_gravity, 用于指定控件在布局中的对齐方式-->
+    android:layout_weight, 允许使用比例来指定控件的大小
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+
+        android:layout_weight="1"
+        android:textAllCaps="false"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Type something"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Button 2"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Button 3"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

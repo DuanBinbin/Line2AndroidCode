@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--引用自定义的UI控件-->
+    <!--<include layout="@layout/ui_custom_layout_title"/>-->
+    <com.db.ui.custom.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_start_text_view_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start TextView Activity"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_start_edit_text_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start EditText Activity"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_start_image_view_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ImageView Activity"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_start_progress_bar_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ProgressBar Activity"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_start_alert_dialog_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start AlertDialog Activity"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_start_frame_layout_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start FrameLayout Activity"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_start_list_view_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start ListView Activity"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_start_recycler_view_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start RecyclerView Activity"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
