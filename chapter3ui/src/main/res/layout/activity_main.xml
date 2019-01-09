@@ -69,4 +69,11 @@
         android:text="Start RecyclerView Activity"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/btn_start_popup_window_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Popup Window Activity"
+        android:textAllCaps="false"/>
+
 </LinearLayout>

@@ -25,6 +25,7 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.btn_start_frame_layout_activity).setOnClickListener(this);
         findViewById(R.id.btn_start_list_view_activity).setOnClickListener(this);
         findViewById(R.id.btn_start_recycler_view_activity).setOnClickListener(this);
+        findViewById(R.id.btn_start_popup_window_activity).setOnClickListener(this);
 
         //隐藏原来的ActionBar
         ActionBar actionBar = getSupportActionBar();
@@ -59,6 +60,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_start_recycler_view_activity:
                 RecyclerViewActivity.startRecyclerViewActivity(this);
+                break;
+            case R.id.btn_start_popup_window_activity:
+                PopupWindowActivity.startPopupWindowAcitvity(this);
                 break;
             default:
                 break;

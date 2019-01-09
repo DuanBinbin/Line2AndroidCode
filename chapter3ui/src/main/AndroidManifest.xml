@@ -23,7 +23,8 @@
         <activity android:name=".layout.FrameLayoutActivity" />
         <activity android:name=".AlertDialogActivity" />
         <activity android:name=".listview.ListViewActivity" />
-        <activity android:name=".recyclerview.RecyclerViewActivity"></activity>
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".PopupWindowActivity"></activity>
     </application>
 
 </manifest>
