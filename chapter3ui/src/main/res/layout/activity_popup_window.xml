@@ -6,14 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".PopupWindowActivity">
 
-    <TextView
-        android:id="@+id/text_view"
+    <Button
+        android:id="@+id/btn_show_popup_window"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is PopupWindow"
-        android:textAllCaps="false"
-        android:gravity="center"
-        android:textSize="24dp"
-        android:textColor="#00ff00"/>
+        android:text="Show Popup Window"/>
 
 </android.support.constraint.ConstraintLayout>
